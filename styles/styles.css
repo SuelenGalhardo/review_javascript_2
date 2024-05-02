@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    font-size: 1.6rem;
+
+    color: white;
+    font-family: var(--ff-primary);
+    }  background-size: cover;
+  
+  
+  body, a
+ {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-size: 2.1rem;
+  }
+  
+  nav {
+    display: flex;
+    margin: 4rem 7rem;
+    width: 48rem;
+    gap: 3rem;
+    align-items: center;
+    
+   
+  }
+  
+  ul {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+  }
+  
+  .active {
+  
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+  
+  h1 {
+ 
+    font-size: 5rem;
+    font-weight: 700;
+  }
+  
+  @keyframes change {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }

@@ -1,0 +1,26 @@
+body {
+    background-image: url("/assets/mountains-universe-1.png");
+   
+    text-align: center;
+  }
+  .container {
+    height: 40rem;
+    animation: change 2s backwards;
+  }
+  h1 {
+    margin: 17rem auto 2.4rem;
+  }
+  
+  body .container a {
+  
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 1.2rem 3.2rem;
+text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  body .container a:hover {
+
+    color: var(--fc-second);
+  }
