@@ -11,3 +11,9 @@ router.handle();
 
 window.onpopstate = () => router.handle();
 window.route = () => router.route();
+
+
+//packagejson:
+// json(javascrit objecto notacion ) 
+//npm init -y
+// npm install lite-server
